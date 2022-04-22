@@ -16,6 +16,8 @@ public class Author {
 
     String surname;
 
+    String fullName;
+
     @ManyToOne
     Country country;
 
@@ -26,5 +28,6 @@ public class Author {
         this.name = name;
         this.surname = surname;
         this.country = country;
+        this.fullName = this.name + " " + this.surname;
     }
 }

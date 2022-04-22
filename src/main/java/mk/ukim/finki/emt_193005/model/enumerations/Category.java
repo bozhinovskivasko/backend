@@ -1,5 +1,7 @@
 package mk.ukim.finki.emt_193005.model.enumerations;
 
+import java.util.List;
+
 public enum Category {
     NOVEL("NOVEL"),
     THRILLER("THRILLER"),
